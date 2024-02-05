@@ -23,9 +23,14 @@ class MarkovChain:
 			sentence.append(word)
 		return ' '.join(sentence)
 
+def read_file(filepath):
+        with open(filepath, 'r', encoding='utf-8') as file:
+                text = file.read()
+        return text
+
 if __name__ == "__main__":
-	text = input("Text goes here: ")
+	filepath = "big.txt"
+	text = read_file(filepath)
 	markov_chain = MarkovChain()
 	markov_chain.add_words(text)
-	print("\n")
 	print(markov_chain.generate_sentence(15))
