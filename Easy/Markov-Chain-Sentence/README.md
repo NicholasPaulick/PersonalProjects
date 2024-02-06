@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://yourrepositorylink.git
+git clone https://github.com/NicholasPaulick/PersonalProjects.git
 ```
 
 #### Navigate to the project directory:
