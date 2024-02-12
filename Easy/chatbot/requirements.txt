@@ -1,4 +1,0 @@
-tensorflow>=2.0
-nltk
-beautifulsoup4
-requests
